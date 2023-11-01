@@ -15,6 +15,8 @@ function App() {
   useEffect(() => {
     localStorage.setItem('taskList', JSON.stringify(taskList));
     localStorage.setItem('isDarkMode', JSON.stringify(isDarkMode));
+    // Update the background color based on dark mode setting
+    document.body.style.backgroundColor = isDarkMode ? '#333333' : '#FFFFFF';
   }, [taskList, isDarkMode]);
 
   const addTask = () => {
@@ -37,7 +39,6 @@ function App() {
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
-    document.body.style.backgroundColor = !isDarkMode ? '#333333' : '#FFFFFF';
   };
 
   return (
