@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-    <sub>Plain note app that saves your notes to your browser</sub>
+    <sub>A Plain Note App That Saves Your Notes to Your Browser</sub>
     <br />
 <br />
 </div>
