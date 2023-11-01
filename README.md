@@ -9,4 +9,4 @@
 <br />
 </div>
 
-[Link to site](https://christopher-dsa.github.io/notesapp/)
+[Link to notes app](https://christopher-dsa.github.io/notesapp/)
